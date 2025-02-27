@@ -11,8 +11,8 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="overflow-hidden border-b border-solid border-[#D9D9D9]">
-      <div className="flex items-center justify-between p-5">
+    <nav className="overflow-hidden border-b border-solid border-[#D9D9D9] lg:flex lg:justify-center">
+      <div className="flex items-center justify-between px-5 py-6 max-w-[2000px] lg:gap-4">
         <Image
           src="Logo.svg"
           alt="Giddaa Logo"
@@ -29,7 +29,7 @@ const NavBar = () => {
 
         {/* Navigation Links (Desktop & Mobile) */}
         <div
-          className={`fixed left-0 top-0 z-50 h-full w-full bg-white p-6 transition-transform duration-300 ease-in-out md:static md:flex md:h-auto md:w-auto md:p-0 ${
+          className={`fixed left-0 top-0 z-50 h-full w-full bg-white p-6 transition-transform duration-300 ease-in-out md:static md:gap-2 md:flex md:h-auto md:w-auto md:p-0 ${
             menuOpen ? "translate-x-0" : "-translate-x-full"
           } md:translate-x-0`}
         >
@@ -95,7 +95,7 @@ const NavBar = () => {
             Refer & Earn
           </button>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-5">
             <Image
               src="USA.svg"
               alt="USA dropdown Icon"
