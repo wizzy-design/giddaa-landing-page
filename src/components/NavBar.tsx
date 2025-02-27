@@ -11,7 +11,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="border-b border-solid border-[#D9D9D9]">
+    <nav className="overflow-hidden border-b border-solid border-[#D9D9D9]">
       <div className="flex items-center justify-between p-5">
         <Image
           src="Logo.svg"
