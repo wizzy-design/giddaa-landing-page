@@ -53,62 +53,6 @@ const Hero = () => {
             height={286}
           />
         </div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
-        recusandae maiores illum perspiciatis doloremque? Ab nobis ullam
-        temporibus neque voluptates omnis in porro velit, fuga blanditiis. Non
-        veritatis quos dolore incidunt vero quibusdam deleniti reprehenderit
-        explicabo ad. Necessitatibus, quia vero? Corrupti totam mollitia nihil
-        perferendis consectetur eos sunt, labore exercitationem, nulla, eaque
-        quas facilis blanditiis veniam veritatis eveniet. Consequatur laboriosam
-        iure error molestiae quos. Sunt, necessitatibus aperiam adipisci nostrum
-        enim laudantium, est quia delectus obcaecati deleniti exercitationem
-        quod temporibus. Eos, dolor neque! Consequatur natus sint odit
-        voluptatibus, voluptatum explicabo repellendus ipsum eos modi
-        perspiciatis? Vitae, temporibus? Exercitationem necessitatibus ex
-        impedit, repudiandae assumenda commodi ab facilis quis recusandae enim
-        rerum nihil eligendi voluptatibus, illum ipsa dolores provident
-        voluptatum atque velit sint fuga aliquid numquam. Explicabo praesentium
-        natus, tenetur ducimus veniam nostrum blanditiis iste modi incidunt
-        quisquam cum repudiandae laboriosam dolorem asperiores, quia placeat
-        excepturi obcaecati qui voluptas corrupti culpa consectetur perspiciatis
-        porro. Tempora nulla assumenda porro ad ex perspiciatis nisi, sequi
-        quas, velit ratione nesciunt vero reiciendis explicabo impedit doloribus
-        alias cumque molestiae voluptas labore! Aliquam ex perferendis sunt
-        magni minima, doloremque obcaecati reiciendis ab ducimus corrupti sint
-        adipisci voluptates odio veritatis debitis, minus similique, aut neque?
-        Vel consequuntur ipsum reiciendis iusto harum voluptas modi repudiandae
-        porro corrupti et laudantium sit quisquam suscipit, minus nobis dolorem
-        alias ut inventore laboriosam quasi? Cupiditate, nisi neque! Aliquam
-        ipsa obcaecati laboriosam dolorum modi eligendi exercitationem delectus
-        cum eveniet labore? At, minima incidunt suscipit ratione odio earum iure
-        facere doloribus iste, mollitia consequatur asperiores voluptas harum.
-        Deleniti ullam error, libero consequatur explicabo et ratione expedita
-        blanditiis facilis delectus ut quo maiores vero nam dolorem praesentium!
-        Suscipit tenetur modi non sapiente, magni possimus repellendus quas
-        architecto, autem perferendis vitae animi illo saepe placeat natus
-        dolorem enim. Eos commodi quam excepturi? Esse ipsam laborum ad iusto
-        fuga aut quis similique impedit provident delectus earum magnam,
-        voluptatem architecto recusandae blanditiis rerum amet ipsa magni
-        soluta! Obcaecati quisquam tempore accusantium eligendi dolorum sapiente
-        aperiam! Nesciunt ullam sequi alias cum ipsum eius fugit repudiandae quo
-        molestias impedit! Necessitatibus, mollitia atque. Libero a quia in
-        ullam nihil praesentium maxime ab esse. Magnam quod quasi, veniam fugit
-        possimus sit laboriosam culpa earum mollitia rerum fugiat in libero non
-        ipsa ullam a? Nam doloribus quos ea maiores esse, debitis nesciunt natus
-        obcaecati accusantium, accusamus voluptates culpa sapiente quas
-        similique aut? Id magnam pariatur consequatur accusamus suscipit laborum
-        cum! Tempore reprehenderit esse saepe, eveniet nobis quam! Enim iusto
-        sit voluptates quia unde, atque illo assumenda nulla fuga possimus fugit
-        consectetur optio maxime et quibusdam, doloribus iste ratione nihil id
-        magnam tenetur quas dolorem! Laudantium rerum quam delectus totam aut
-        reprehenderit ratione, fugiat eos quia accusantium rem provident nihil
-        eum beatae optio doloribus alias dolorem earum animi? Aperiam modi totam
-        fugiat tempora unde sapiente saepe placeat magni distinctio quia,
-        accusantium voluptas maxime aliquid ab voluptates quisquam quasi. Alias
-        nulla nemo velit, itaque, sapiente aliquid necessitatibus error maxime
-        dolorem culpa quam. Tempora quasi molestias repellendus fuga perferendis
-        necessitatibus distinctio consequuntur. Quisquam porro enim iure maxime
-        rem.
       </div>
     </section>
   );
