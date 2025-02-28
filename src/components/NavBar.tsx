@@ -62,7 +62,7 @@ const NavBar = () => {
             ].map((item, index) => (
               <li
                 key={item}
-                className="flex cursor-pointer items-center text-nowrap text-xs text-[#4B4B4B] hover:text-black 2xl:text-sm"
+                className="flex cursor-pointer items-center  text-xs text-[#4B4B4B] hover:text-black 2xl:text-sm"
               >
                 <p className="flex items-center gap-[6px]">
                   <span
