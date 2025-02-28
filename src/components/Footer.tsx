@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="h-full border-t-[14px] border-solid border-[#F5F5DE] bg-[#294C28] py-10 text-white lg:py-20">
       <div className="mx-4 max-w-[2000px] px-6 lg:mx-6">
         {/* Newsletter Section */}
-        <div className="mb-6 flex flex-col items-center justify-between lg:mb-16 lg:flex-row">
+        <div className="mb-6 flex flex-col items-center justify-between space-y-4 lg:mb-16 lg:flex-row lg:space-y-0">
           <div className="flex flex-col justify-center gap-2">
             <h3 className="text-lg font-semibold">Join Our Newsletter</h3>
             <p className="text-sm text-gray-200">
@@ -14,6 +14,7 @@ const Footer = () => {
               newsletter
             </p>
           </div>
+
           <div className="flex justify-center">
             <input
               type="email"
@@ -27,7 +28,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Links Section */}
-        <div className="grid grid-cols-2 text-sm text-white md:grid-cols-6">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-10 text-sm text-white md:grid-cols-6 lg:gap-0">
           {/* About Us */}
           <div>
             <h4 className="mb-4 font-semibold text-white">ABOUT US</h4>

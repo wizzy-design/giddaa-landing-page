@@ -47,7 +47,7 @@ const WhyGiddaa = () => {
           </div>
 
           {/* Service Cards */}
-          <div className="mt-8 grid grid-cols-1 gap-6 px-5 sm:grid-cols-2 md:grid-cols-3">
+          <div className="mt-8 grid grid-cols-1 place-items-center gap-6 px-5 sm:grid-cols-2 md:grid-cols-3">
             {Array(3)
               .fill(null)
               .map((_, index) => (

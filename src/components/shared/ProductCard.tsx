@@ -38,7 +38,7 @@ const ProductCard = ({
         {/* Text Section */}
         <div
           className={`${
-            mode == "vertical" ? "md:w-full px-5 py-8" : "md:w-1/2 p-4"
+            mode == "vertical" ? "md:w-full px-5 py-8" : "md:w-1/2 p-5 lg:p-4"
           } w-full flex-1  `}
         >
           <h2 className="mb-2 text-xl font-bold text-gray-900 lg:text-2xl">

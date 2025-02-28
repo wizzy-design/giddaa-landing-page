@@ -29,7 +29,7 @@ const NavBar = () => {
 
         {/* Navigation Links (Desktop & Mobile) */}
         <div
-          className={`fixed left-0 top-0 z-50 h-full w-full bg-white p-6 transition-transform duration-300 ease-in-out lg:static lg:gap-2 lg:flex lg:h-auto lg:w-auto lg:p-0 lg:items-center ${
+          className={`fixed space-y-5 lg:space-y-0 left-0 top-0 z-50 h-full w-full bg-white p-6 transition-transform duration-300 ease-in-out lg:static lg:gap-2 lg:flex lg:h-auto lg:w-auto lg:p-0 lg:items-center ${
             menuOpen ? "translate-x-0" : "-translate-x-full"
           } lg:translate-x-0`}
         >
@@ -41,7 +41,7 @@ const NavBar = () => {
           </button>
 
           {/* Search Bar */}
-          <div className="mb-4 flex h-[35px] w-full max-w-full items-center rounded-[100px] border border-solid border-[#F0F0F0] bg-transparent px-4 py-2 md:mb-0 md:max-w-[189px]">
+          <div className="max-w-2/3 mb-4 mt-8 flex h-[35px] w-full items-center rounded-[100px] border border-solid border-[#F0F0F0] bg-transparent px-4 py-2 md:mb-0 md:max-w-[189px] lg:mt-0 2xl:max-w-[230px]">
             <Image src="search.svg" alt="Search Icon" width={15} height={15} />
             <input
               type="text"
@@ -50,7 +50,7 @@ const NavBar = () => {
             />
           </div>
 
-          <ul className="flex flex-col gap-4 md:flex-row md:gap-8">
+          <ul className="grid grid-cols-2 place-items-center gap-4 lg:flex lg:flex-row lg:gap-8">
             {[
               "Buy",
               "Shortlets",
@@ -91,18 +91,20 @@ const NavBar = () => {
             ))}
           </ul>
 
-          <button className="mx-4 border-l border-r border-solid border-[#D9D9D9] bg-green-linear bg-clip-text px-5 py-2 text-xs font-bold text-transparent 2xl:text-sm">
-            Refer & Earn
-          </button>
+          <div className="flex justify-center gap-4 lg:gap-0">
+            <button className="border-l border-r border-solid border-[#D9D9D9] bg-green-linear bg-clip-text px-5 py-2 text-xs font-bold text-transparent lg:mx-4 2xl:text-sm">
+              Refer & Earn
+            </button>
 
-          <div className="flex items-center gap-5">
-            <Image
-              src="USA.svg"
-              alt="USA dropdown Icon"
-              width={84}
-              height={31}
-            />
-            <Image src="whiteMan.svg" alt="Man Icon" width={32} height={32} />
+            <div className="flex items-center gap-5">
+              <Image
+                src="USA.svg"
+                alt="USA dropdown Icon"
+                width={84}
+                height={31}
+              />
+              <Image src="whiteMan.svg" alt="Man Icon" width={32} height={32} />
+            </div>
           </div>
         </div>
       </div>

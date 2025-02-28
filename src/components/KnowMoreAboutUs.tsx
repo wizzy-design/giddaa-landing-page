@@ -9,7 +9,7 @@ const KnowMoreAboutUs = () => {
         subtitle="From our teams lips to your ears —  let’s tell you about Giddaa."
       />
 
-      <div className="relative h-[600px] w-[80%]">
+      <div className="relative h-[200px] w-[80%] overflow-hidden lg:h-[600px]">
         <Image
           src="/KnowMore.png"
           alt="Testimonial Video"

@@ -4,7 +4,7 @@ import GreenButton from "./shared/GreenButton";
 
 const GetStarted = () => {
   return (
-    <section className="relative my-20 flex w-full flex-col items-center overflow-hidden py-10">
+    <section className="relative my-20 flex w-full flex-col items-center py-10">
       <div className="absolute h-full w-full">
         <Image
           src="product-gradient.svg"
@@ -16,7 +16,7 @@ const GetStarted = () => {
         />
       </div>
 
-      <div className="w-full max-w-[2000px] rounded-t-[250px] border border-transparent bg-yellow-linear">
+      <div className="w-full max-w-[2000px] border border-transparent bg-yellow-linear lg:rounded-t-[250px]">
         <Title
           title="Get Started"
           subtitle="Made it this far? What are you waiting for? Get started with one of our products today!."
