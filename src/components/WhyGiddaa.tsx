@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MdOutlineSoupKitchen } from "react-icons/md"; // Icon for example
+import { PiCookingPot } from "react-icons/pi";
 import Title from "./shared/Title";
 import Image from "next/image";
 
@@ -49,9 +49,9 @@ const WhyGiddaa = () => {
               .map((_, index) => (
                 <div
                   key={index}
-                  className="flex max-w-[346px] flex-col gap-2 rounded-lg border-2 border-green-900 p-6"
+                  className="flex max-w-[346px] flex-col gap-2 rounded-[16px] border-2 border-green-900 p-6"
                 >
-                  <MdOutlineSoupKitchen className="text-3xl text-green-900" />
+                  <PiCookingPot className="text-3xl text-green-900" />
                   <h3 className="text-lg font-semibold">Stay Fully Booked</h3>
                   <p className="text-gray-600">
                     Order from our vendors and restaurants up till 12am

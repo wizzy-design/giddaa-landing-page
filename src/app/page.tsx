@@ -5,6 +5,8 @@ import OurPartners from "@/components/OurPartners";
 import WhyGiddaa from "@/components/WhyGiddaa";
 import PeopleTalk from "@/components/PeopleTalk";
 import KnowMoreAboutUs from "@/components/KnowMoreAboutUs";
+import Footer from "@/components/Footer";
+import GetStarted from "@/components/GetStarted";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <WhyGiddaa />
       <PeopleTalk />
       <KnowMoreAboutUs />
+      <GetStarted />
+      <Footer />
     </section>
   );
 }

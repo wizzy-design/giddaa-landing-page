@@ -7,7 +7,11 @@ const GreenButton = ({ title, mode }: { title: string; mode?: string }) => {
         mode === "white"
           ? "bg-white text-[#335F32] border-2 border-solid border-[#335F32]"
           : "bg-green-linear text-white"
-      } flex items-center gap-3 rounded-100  px-7 py-[16px] text-[13px] font-bold transition-all hover:scale-[1.1]`}
+      } ${
+        mode === "getStarted"
+          ? "py-3 hover:scale-[1]"
+          : "py-[16px] hover:scale-[1.1]"
+      } flex items-center justify-center gap-3 rounded-100  px-7  text-[13px] font-bold transition-all `}
     >
       {title}
 
