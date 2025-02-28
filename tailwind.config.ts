@@ -12,12 +12,14 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "green-linear": "linear-gradient(0deg, #335F32, #335F32), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))",
-        "hero-linear": "linear-gradient(90deg, rgba(255, 255, 251, 0.5) 0%, rgba(246, 253, 244, 0.5) 50%, rgba(255, 237, 203, 0.5) 100%)",
+        "green-linear":
+          "linear-gradient(0deg, #335F32, #335F32), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))",
+        "hero-linear":
+          "linear-gradient(90deg, rgba(255, 255, 251, 0.5) 0%, rgba(246, 253, 244, 0.5) 50%, rgba(255, 237, 203, 0.5) 100%)",
       },
       borderRadius: {
-        "100": "100px"
-      }
+        "100": "100px",
+      },
     },
   },
   plugins: [],
