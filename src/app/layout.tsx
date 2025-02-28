@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import { Red_Hat_Display } from "next/font/google";
 import "./globals.css";
+
+const redHatDisplay = Red_Hat_Display({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Giddaa",
@@ -13,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={redHatDisplay.className}>{children}</body>
     </html>
   );
 }

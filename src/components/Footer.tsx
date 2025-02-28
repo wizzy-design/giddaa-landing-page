@@ -3,18 +3,18 @@ import { FaArrowDownLong } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="border-t-[14px] border-solid border-[#F5F5DE] bg-[#294C28] py-10 text-white">
+    <footer className="h-full border-t-[14px] border-solid border-[#F5F5DE] bg-[#294C28] py-10 text-white lg:py-20">
       <div className="mx-4 max-w-[2000px] px-6 lg:mx-6">
         {/* Newsletter Section */}
-        <div className="mb-6 flex flex-col items-center justify-between lg:flex-row">
-          <div>
+        <div className="mb-6 flex flex-col items-center justify-between lg:mb-16 lg:flex-row">
+          <div className="flex flex-col justify-center gap-2">
             <h3 className="text-lg font-semibold">Join Our Newsletter</h3>
             <p className="text-sm text-gray-200">
               Stay up to date with news and updates by subscribing to our
               newsletter
             </p>
           </div>
-          <div className="mt-4 flex justify-center">
+          <div className="flex justify-center">
             <input
               type="email"
               placeholder="Enter your email address"
@@ -27,40 +27,42 @@ const Footer = () => {
         </div>
 
         {/* Footer Links Section */}
-        <div className="grid grid-cols-2 text-sm text-gray-200 md:grid-cols-6">
+        <div className="grid grid-cols-2 text-sm text-white md:grid-cols-6">
           {/* About Us */}
           <div>
-            <h4 className="mb-2 font-semibold text-white">ABOUT US</h4>
-            <ul>
-              <li className="cursor-pointer hover:text-white">Our Company</li>
-              <li className="cursor-pointer hover:text-white">Our Team</li>
+            <h4 className="mb-4 font-semibold text-white">ABOUT US</h4>
+            <ul className="space-y-3">
+              <li className="cursor-pointer hover:text-gray-200">
+                Our Company
+              </li>
+              <li className="cursor-pointer hover:text-gray-200">Our Team</li>
             </ul>
           </div>
 
           {/* Products */}
           <div>
-            <h4 className="mb-2 font-semibold text-white">PRODUCTS</h4>
-            <ul>
-              <li className="cursor-pointer hover:text-white">Buy</li>
-              <li className="cursor-pointer hover:text-white">Short Lets</li>
-              <li className="cursor-pointer hover:text-white">Invest</li>
+            <h4 className="mb-4 font-semibold text-white">PRODUCTS</h4>
+            <ul className="space-y-3">
+              <li className="cursor-pointer hover:text-gray-200">Buy</li>
+              <li className="cursor-pointer hover:text-gray-200">Short Lets</li>
+              <li className="cursor-pointer hover:text-gray-200">Invest</li>
             </ul>
           </div>
 
           {/* Partners */}
           <div>
-            <h4 className="mb-2 font-semibold text-white">PARTNERS</h4>
-            <ul>
-              <li className="cursor-pointer hover:text-white">
+            <h4 className="mb-4 font-semibold text-white">PARTNERS</h4>
+            <ul className="space-y-3">
+              <li className="cursor-pointer hover:text-gray-200">
                 Join as a Property Developer
               </li>
-              <li className="cursor-pointer hover:text-white">
+              <li className="cursor-pointer hover:text-gray-200">
                 Join as a Lender
               </li>
-              <li className="cursor-pointer hover:text-white">
+              <li className="cursor-pointer hover:text-gray-200">
                 Join as an Agent
               </li>
-              <li className="cursor-pointer hover:text-white">
+              <li className="cursor-pointer hover:text-gray-200">
                 Sell Your House
               </li>
             </ul>
@@ -68,28 +70,28 @@ const Footer = () => {
 
           {/* Resources */}
           <div>
-            <h4 className="mb-2 font-semibold text-white">RESOURCES</h4>
-            <ul>
-              <li className="cursor-pointer hover:text-white">Tutorials</li>
-              <li className="cursor-pointer hover:text-white">
+            <h4 className="mb-4 font-semibold text-white">RESOURCES</h4>
+            <ul className="space-y-3">
+              <li className="cursor-pointer hover:text-gray-200">Tutorials</li>
+              <li className="cursor-pointer hover:text-gray-200">
                 Watch the Demo
               </li>
-              <li className="cursor-pointer hover:text-white">Blog</li>
+              <li className="cursor-pointer hover:text-gray-200">Blog</li>
             </ul>
           </div>
 
           {/* Contact Us */}
           <div>
-            <h4 className="mb-2 font-semibold text-white">CONTACT US</h4>
-            <ul>
-              <li className="cursor-pointer hover:text-white">
+            <h4 className="mb-4 font-semibold text-white">CONTACT US</h4>
+            <ul className="space-y-3">
+              <li className="cursor-pointer hover:text-gray-200">
                 info@giddaa.com
               </li>
-              <li className="cursor-pointer hover:text-white">WhatsApp</li>
-              <li className="cursor-pointer hover:text-white">
+              <li className="cursor-pointer hover:text-gray-200">WhatsApp</li>
+              <li className="cursor-pointer hover:text-gray-200">
                 Book a Meeting
               </li>
-              <li className="cursor-pointer hover:text-white">
+              <li className="cursor-pointer hover:text-gray-200">
                 +234 809 762 1791
               </li>
             </ul>
@@ -97,12 +99,12 @@ const Footer = () => {
 
           {/* Site Navigation */}
           <div>
-            <h4 className="mb-2 font-semibold text-white">SITE NAVIGATION</h4>
-            <ul>
-              <li className="cursor-pointer hover:text-white">Home</li>
-              <li className="cursor-pointer hover:text-white">Properties</li>
-              <li className="cursor-pointer hover:text-white">Developers</li>
-              <li className="cursor-pointer hover:text-white">
+            <h4 className="mb-4 font-semibold text-white">SITE NAVIGATION</h4>
+            <ul className="space-y-3">
+              <li className="cursor-pointer hover:text-gray-200">Home</li>
+              <li className="cursor-pointer hover:text-gray-200">Properties</li>
+              <li className="cursor-pointer hover:text-gray-200">Developers</li>
+              <li className="cursor-pointer hover:text-gray-200">
                 Sell Your House
               </li>
             </ul>
@@ -110,7 +112,7 @@ const Footer = () => {
         </div>
 
         {/* Social Media & Community Section */}
-        <div className="mt-8 flex flex-col items-center">
+        <div className="mb-10 mt-16 flex flex-col items-center gap-5">
           <div className="flex space-x-4">
             <div className="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-white">
               <Image

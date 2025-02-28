@@ -9,13 +9,17 @@ const WhyGiddaa = () => {
   const [activeCategory, setActiveCategory] = useState(categories[0]);
 
   return (
-    <section className="relative my-20 flex w-full flex-col items-center justify-center px-4 py-10">
-      <Image
-        src="product-gradient.svg"
-        alt="Product gradient"
-        fill
-        className="pointer-events-none"
-      />
+    <section className="relative my-20 flex w-full flex-col items-center overflow-hidden py-10">
+      <div className="absolute h-full w-full">
+        <Image
+          src="product-gradient.svg"
+          alt="Product gradient"
+          layout="responsive"
+          width={100}
+          height={100}
+          className="pointer-events-none"
+        />
+      </div>
       <div className="flex items-center justify-center">
         <div className="max-w-[2000px]">
           <div>

@@ -4,8 +4,18 @@ import GreenButton from "./shared/GreenButton";
 
 const GetStarted = () => {
   return (
-    <section className="relative w-full">
-      <Image src="product-gradient.svg" alt="Product gradient" fill />
+    <section className="relative my-20 flex w-full flex-col items-center overflow-hidden py-10">
+      <div className="absolute h-full w-full">
+        <Image
+          src="product-gradient.svg"
+          alt="Product gradient"
+          layout="responsive"
+          width={100}
+          height={100}
+          className="pointer-events-none"
+        />
+      </div>
+
       <div className="w-full max-w-[2000px] rounded-t-[250px] border border-transparent bg-yellow-linear">
         <Title
           title="Get Started"
