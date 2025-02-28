@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Products from "@/components/Products";
 import OurPartners from "@/components/OurPartners";
 import WhyGiddaa from "@/components/WhyGiddaa";
+import PeopleTalk from "@/components/PeopleTalk";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Products />
       <OurPartners />
       <WhyGiddaa />
+      <PeopleTalk />
     </section>
   );
 }
