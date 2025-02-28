@@ -12,9 +12,7 @@ const Title: React.FC<{ title: string; subtitle: string }> = ({
         </h1>
         <Image src="/greenLine.svg" alt="Green Line" width={92} height={1} />
       </div>
-      <p className="w-2/3 text-center text-sm lg:w-[40%] lg:text-base">
-        {subtitle}
-      </p>
+      <p className="w-2/3 text-center text-sm lg:text-base">{subtitle}</p>
     </section>
   );
 };
