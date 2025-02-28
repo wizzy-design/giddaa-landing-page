@@ -5,6 +5,7 @@ const ProductCard = ({
   title,
   description,
   buttonText,
+  buttonText2,
   imageSrc,
   background,
   mode,
@@ -12,6 +13,7 @@ const ProductCard = ({
   title: string;
   description: string;
   buttonText: string;
+  buttonText2?: string;
   imageSrc: string;
   background?: string;
   mode?: string;
@@ -32,12 +34,15 @@ const ProductCard = ({
         {/* Text Section */}
         <div
           className={`${
-            mode == "vertical" ? "md:w-full p-5" : "md:w-1/2 p-4"
+            mode == "vertical" ? "md:w-full px-5 py-8" : "md:w-1/2 p-4"
           } w-full flex-1  `}
         >
           <h2 className="mb-2 text-xl font-semibold text-gray-900">{title}</h2>
           <p className="mb-4 text-gray-600">{description}</p>
-          <GreenButton title={buttonText} />
+          <div className="flex items-center gap-4">
+            <GreenButton title={buttonText} />
+            {buttonText2 && <GreenButton title={buttonText} mode="white" />}
+          </div>
         </div>
 
         {/* Image Section */}

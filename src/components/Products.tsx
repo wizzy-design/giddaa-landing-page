@@ -11,7 +11,7 @@ const Products = () => {
         />
 
         {/* card Grids */}
-        <div className="md: grid grid-cols-1 gap-10 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-10 px-5 lg:grid-cols-2">
           <ProductCard
             title="Buy"
             description="Explore and purchase your home from top developers & vetted property sellers (With land titles) on various purchase plans and long term loan options."
@@ -29,6 +29,7 @@ const Products = () => {
             title="Invest"
             description="Become a real estate investor without breaking the bank. Invest in real estate assets and grow your portfolio with friends and family (in a private investment group) or with the public (fractionally, like a stock exchange)."
             buttonText="Find an Investment"
+            buttonText2="Learn More"
             imageSrc="product3"
             background="bg-[#FFFFE8]"
             mode="vertical"
@@ -37,6 +38,7 @@ const Products = () => {
             title="Sell"
             description="Sell your property with us, a company and partner you can trust. Our simple process makes it easy for sellers to list their properties and sell their properties on various purchase plans to the 1000’s of potential buyers who visit Giddaa monthly."
             buttonText="Sell Your Property"
+            buttonText2="Talk To Our Team"
             imageSrc="product4"
             background="bg-[#F9FAFB]"
             mode="vertical"
