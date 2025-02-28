@@ -31,46 +31,45 @@ const PeopleTalk = () => {
         ))}
       </div>
 
-      <div className="relative flex max-w-5xl flex-col overflow-hidden rounded-lg border-2 border-green-900 md:flex-row">
-        {/* Left Section - Text & Profile Image */}
-        <div className="w-full bg-gradient-to-r from-green-50 to-white p-6 md:w-3/4">
-          <div className="mb-4 h-20 w-20 overflow-hidden rounded-lg">
+      <div className="flex items-center">
+        <div className="relative my-6 flex max-w-5xl flex-col overflow-hidden rounded-[40px] border-2 border-green-900 md:flex-row">
+          {/* Left Section - Text & Profile Image */}
+          <div className="w-full flex-1 bg-[linear-gradient(314.28deg,_rgba(255,_255,_251,_0.7)_28.4%,_rgba(246,_253,_244,_0.7)_60.34%,_rgba(255,_237,_203,_0.7)_81.21%)] p-6 md:w-3/4">
+            <div className="mb-4 overflow-hidden rounded-lg">
+              <Image
+                src="/peopleTalk1.png" // Replace this with your profile image
+                alt="Profile"
+                width={226}
+                height={215}
+                className="object-cover"
+              />
+            </div>
+            <h3 className="text-lg font-bold">Chima Okereke</h3>
+            <p className="text-sm font-semibold text-green-900">
+              DIRECTOR OF SALES AT BILAAD REALTY
+            </p>
+            <p className="mt-2 text-sm text-gray-600">
+              "I had an outstanding experience with the short-let booking
+              service! From start to finish, the team made the entire process
+              smooth and easy. I needed help finding the perfect place for my
+              stay, and they went above and beyond..."
+            </p>
+          </div>
+
+          {/* Right Section - Video Placeholder */}
+          <div className="relative w-full flex-1 md:w-1/4">
             <Image
-              src="/placeholder-profile.jpg" // Replace this with your profile image
-              alt="Profile"
-              width={80}
-              height={80}
-              className="object-cover"
+              src="/peopleTalk2.png" // Replace with actual video thumbnail
+              alt="Testimonial Video"
+              width={420}
+              height={300}
+              className="h-full w-full object-cover pl-14"
             />
           </div>
-          <h3 className="text-lg font-bold">Chima Okereke</h3>
-          <p className="text-sm font-semibold text-green-900">
-            DIRECTOR OF SALES AT BILAAD REALTY
-          </p>
-          <p className="mt-2 text-sm text-gray-600">
-            "I had an outstanding experience with the short-let booking service!
-            From start to finish, the team made the entire process smooth and
-            easy. I needed help finding the perfect place for my stay, and they
-            went above and beyond..."
-          </p>
         </div>
 
-        {/* Right Section - Video Placeholder */}
-        <div className="relative w-full md:w-1/4">
-          <Image
-            src="/placeholder-video.jpg" // Replace with actual video thumbnail
-            alt="Testimonial Video"
-            width={400}
-            height={300}
-            className="h-full w-full object-cover"
-          />
-          <button className="absolute inset-0 flex items-center justify-center">
-            <FaPlay className="rounded-full bg-white p-3 text-4xl text-green-900" />
-          </button>
-        </div>
+        <Timeline />
       </div>
-
-      <Timeline />
     </section>
   );
 };
@@ -88,20 +87,21 @@ const categories = [
 
 const Timeline = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="ml-4 flex flex-col items-center">
       {/* Step 1 - Active */}
       <div className="relative flex flex-col items-center">
-        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-green-900 text-sm font-semibold text-white">
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-green-900 text-sm font-semibold text-white lg:h-11 lg:w-11">
           1
         </div>
-        <div className="h-10 w-1 bg-green-900"></div> {/* Active Line */}
+        <div className="h-10 w-1 bg-gradient-to-b from-green-900 to-[#D9D9D9]"></div>{" "}
+        {/* Active Line */}
       </div>
 
       {/* Inactive Steps */}
       {[2, 3, 4].map((step) => (
         <div key={step} className="flex flex-col items-center">
-          <div className="h-6 w-6 rounded-full border-2 border-gray-300"></div>
-          {step !== 4 && <div className="h-10 w-1 bg-gray-300"></div>}
+          <div className="h-6 w-6 rounded-full border-2 border-gray-300 bg-[#D9D9D9] lg:h-10 lg:w-10"></div>
+          {step !== 4 && <div className="h-10 w-1 bg-[#D9D9D9]"></div>}
         </div>
       ))}
     </div>
