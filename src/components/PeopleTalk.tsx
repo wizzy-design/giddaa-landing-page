@@ -48,10 +48,10 @@ const PeopleTalk = () => {
               DIRECTOR OF SALES AT BILAAD REALTY
             </p>
             <p className="text-sm text-gray-600">
-              "I had an outstanding experience with the short-let booking
+              &quot;I had an outstanding experience with the short-let booking
               service! From start to finish, the team made the entire process
               smooth and easy. I needed help finding the perfect place for my
-              stay, and they went above and beyond..."
+              stay, and they went above and beyond...&quot;
             </p>
           </div>
 
