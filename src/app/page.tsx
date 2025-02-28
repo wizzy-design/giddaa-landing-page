@@ -4,6 +4,7 @@ import Products from "@/components/Products";
 import OurPartners from "@/components/OurPartners";
 import WhyGiddaa from "@/components/WhyGiddaa";
 import PeopleTalk from "@/components/PeopleTalk";
+import KnowMoreAboutUs from "@/components/KnowMoreAboutUs";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <OurPartners />
       <WhyGiddaa />
       <PeopleTalk />
+      <KnowMoreAboutUs />
     </section>
   );
 }
