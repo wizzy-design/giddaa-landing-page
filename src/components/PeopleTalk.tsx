@@ -18,10 +18,10 @@ const PeopleTalk = () => {
         {categories.map((category) => (
           <button
             key={category}
-            className={`px-4 py-2 rounded-full border-2  ${
+            className={`px-4 py-2 rounded-full border-2 text-xs font-medium  ${
               activeCategory === category
-                ? "bg-green-900 text-white border-green-900"
-                : "border-green-900 text-green-900 hover:bg-green-900 hover:text-white"
+                ? "bg-green-linear text-white border-[#335F32] border-[0.6px]"
+                : "border-[#335F32]  text-[#335F32] hover:bg-green-linear hover:text-white"
             }`}
             onClick={() => setActiveCategory(category)}
           >

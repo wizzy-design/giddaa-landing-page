@@ -30,10 +30,10 @@ const WhyGiddaa = () => {
             {categories.map((category) => (
               <button
                 key={category}
-                className={`px-4 py-2 rounded-full border-2 transition-all ${
+                className={`px-4 py-2 rounded-full border-2 text-xs font-medium  ${
                   activeCategory === category
-                    ? "bg-green-900 text-white border-green-900"
-                    : "border-green-900 text-green-900 hover:bg-green-900 hover:text-white"
+                    ? "bg-green-linear text-white border-[#335F32] border-[0.6px]"
+                    : "border-[#335F32]  text-[#335F32] hover:bg-green-linear hover:text-white"
                 }`}
                 onClick={() => setActiveCategory(category)}
               >
@@ -52,7 +52,7 @@ const WhyGiddaa = () => {
                   className="flex max-w-[346px] flex-col gap-2 rounded-[16px] border-2 border-green-900 p-6"
                 >
                   <PiCookingPot className="text-3xl text-green-900" />
-                  <h3 className="text-lg font-semibold">Stay Fully Booked</h3>
+                  <h3 className="text-lg font-bold">Stay Fully Booked</h3>
                   <p className="text-gray-600">
                     Order from our vendors and restaurants up till 12am
                   </p>

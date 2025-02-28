@@ -19,10 +19,10 @@ const OurPartners = () => {
         {categories.map((category) => (
           <button
             key={category}
-            className={`px-4 py-2 rounded-full border-2  ${
+            className={`px-4 py-2 rounded-full border-2 text-xs font-medium  ${
               activeCategory === category
-                ? "bg-green-900 text-white border-green-900"
-                : "border-green-900 text-green-900 hover:bg-green-900 hover:text-white"
+                ? "bg-green-linear text-white border-[#335F32] border-[0.6px]"
+                : "border-[#335F32]  text-[#335F32] hover:bg-green-linear hover:text-white"
             }`}
             onClick={() => setActiveCategory(category)}
           >
@@ -32,13 +32,13 @@ const OurPartners = () => {
       </div>
 
       {/* Partners Logo Grid */}
-      <div className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+      <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
         {Array(6)
           .fill(null)
           .map((_, index) => (
             <div
               key={index}
-              className="h-20 w-20 rounded-full bg-gray-300"
+              className="h-20 w-20 rounded-full bg-gray-300 lg:h-24 lg:w-24"
             ></div>
           ))}
       </div>

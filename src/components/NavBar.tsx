@@ -29,7 +29,7 @@ const NavBar = () => {
 
         {/* Navigation Links (Desktop & Mobile) */}
         <div
-          className={`fixed left-0 top-0 z-50 h-full w-full bg-white p-6 transition-transform duration-300 ease-in-out lg:static lg:gap-2 lg:flex lg:h-auto lg:w-auto lg:p-0 ${
+          className={`fixed left-0 top-0 z-50 h-full w-full bg-white p-6 transition-transform duration-300 ease-in-out lg:static lg:gap-2 lg:flex lg:h-auto lg:w-auto lg:p-0 lg:items-center ${
             menuOpen ? "translate-x-0" : "-translate-x-full"
           } lg:translate-x-0`}
         >
