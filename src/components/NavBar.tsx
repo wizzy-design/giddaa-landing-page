@@ -12,7 +12,7 @@ const NavBar = () => {
 
   return (
     <nav className="overflow-hidden border-b border-solid border-[#D9D9D9] lg:flex lg:justify-center">
-      <div className="flex items-center justify-between px-5 py-6 max-w-[2000px] lg:gap-4">
+      <div className="flex max-w-[2000px] items-center justify-between px-5 py-6 lg:gap-4">
         <Image
           src="Logo.svg"
           alt="Giddaa Logo"
@@ -21,7 +21,7 @@ const NavBar = () => {
         />
 
         {/* Mobile Menu Button */}
-        <div className="flex items-center md:hidden">
+        <div className="flex items-center lg:hidden">
           <button onClick={toggleMenu} className="text-xl">
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
@@ -29,13 +29,13 @@ const NavBar = () => {
 
         {/* Navigation Links (Desktop & Mobile) */}
         <div
-          className={`fixed left-0 top-0 z-50 h-full w-full bg-white p-6 transition-transform duration-300 ease-in-out md:static md:gap-2 md:flex md:h-auto md:w-auto md:p-0 ${
+          className={`fixed left-0 top-0 z-50 h-full w-full bg-white p-6 transition-transform duration-300 ease-in-out lg:static lg:gap-2 lg:flex lg:h-auto lg:w-auto lg:p-0 ${
             menuOpen ? "translate-x-0" : "-translate-x-full"
-          } md:translate-x-0`}
+          } lg:translate-x-0`}
         >
           <button
             onClick={toggleMenu}
-            className="absolute right-6 top-6 text-xl md:hidden"
+            className="absolute right-6 top-6 text-xl lg:hidden"
           >
             <FaTimes />
           </button>
@@ -62,7 +62,7 @@ const NavBar = () => {
             ].map((item, index) => (
               <li
                 key={item}
-                className="flex cursor-pointer items-center  text-xs text-[#4B4B4B] hover:text-black 2xl:text-sm"
+                className="flex cursor-pointer items-center text-xs text-[#4B4B4B] hover:text-black 2xl:text-sm"
               >
                 <p className="flex items-center gap-[6px]">
                   <span
