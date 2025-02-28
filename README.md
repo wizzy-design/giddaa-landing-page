@@ -1,6 +1,6 @@
 # Giggaa Customer's Landing Page
 
-This is a landing page project for Giggaa Customer's, built using [Next.js](https://nextjs.org/).
+This is a landing page project for Giggaa Customer's, built using [Next.js](https://nextjs.org/). Here is the URL for the [Live Site](https://giddaa-customer-wisdom-ochei.netlify.app/)
 
 ## Getting Started
 
