@@ -30,7 +30,7 @@ const WhyGiddaa = () => {
           </div>
 
           {/* Category Buttons */}
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="relative z-30 flex flex-wrap justify-center gap-4">
             {categories.map((category) => (
               <button
                 key={category}

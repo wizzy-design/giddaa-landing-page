@@ -23,7 +23,7 @@ const Products = () => {
           />
 
           {/* card Grids */}
-          <div className="grid grid-cols-1 place-content-center gap-10 px-5 lg:grid-cols-2">
+          <div className="grid grid-cols-1 justify-items-center gap-10 pl-5 pr-3.5 lg:grid-cols-2">
             <ProductCard
               title="Buy"
               description="Explore and purchase your home from top developers & vetted property sellers (With land titles) on various purchase plans and long term loan options."
