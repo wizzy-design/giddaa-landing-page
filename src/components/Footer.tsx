@@ -15,13 +15,13 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex justify-center">
+          <div className="my-2 flex w-full flex-col items-start justify-start gap-2 md:w-auto md:flex-row md:justify-center md:gap-0 lg:my-0">
             <input
               type="email"
               placeholder="Enter your email address"
-              className="w-64 rounded-full px-4 py-2 text-xs text-black placeholder:text-[#4B4B4B] focus:outline-none"
+              className="w-56 rounded-full px-4 py-2 text-xs text-black placeholder:text-[#4B4B4B] focus:outline-none lg:w-64"
             />
-            <button className="ml-2 rounded-full bg-white px-5 py-2 text-xs font-bold text-[#335F32]">
+            <button className="rounded-full bg-white px-5 py-2 text-xs font-bold text-[#335F32] active:scale-[1.05] active:opacity-80 md:ml-2">
               Subscribe
             </button>
           </div>
