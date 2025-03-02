@@ -16,14 +16,14 @@ const Products = () => {
         />
       </div>
       <div className="flex items-center justify-center">
-        <div className="max-w-[2000px]">
+        <div className="max-w-[2000px] overflow-x-hidden">
           <Title
             title="Products"
             subtitle="Get started with one of our carefully crafted products & services."
           />
 
           {/* card Grids */}
-          <div className="grid grid-cols-1 gap-10 px-5 lg:grid-cols-2">
+          <div className="grid grid-cols-1 place-content-center gap-10 px-5 lg:grid-cols-2">
             <ProductCard
               title="Buy"
               description="Explore and purchase your home from top developers & vetted property sellers (With land titles) on various purchase plans and long term loan options."

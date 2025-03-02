@@ -47,7 +47,7 @@ const ProductCard = ({
           <p className="mb-4">{description}</p>
           <div className="flex items-center gap-4">
             <GreenButton title={buttonText} />
-            {buttonText2 && <GreenButton title={buttonText} mode="white" />}
+            {buttonText2 && <GreenButton title={buttonText2} mode="white" />}
           </div>
         </div>
 
