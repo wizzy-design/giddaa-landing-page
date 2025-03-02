@@ -12,7 +12,7 @@ const GetStarted = () => {
           layout="responsive"
           width={100}
           height={100}
-          className="pointer-events-none"
+          className="pointer-events-none -z-10"
         />
       </div>
 
@@ -30,7 +30,7 @@ const GetStarted = () => {
               .map((_, index) => (
                 <div
                   key={index}
-                  className="flex max-w-[346px] flex-col justify-center gap-5 rounded-[16px] border-2 border-green-900 p-4"
+                  className="relative z-30 flex max-w-[346px] flex-col justify-center gap-5 rounded-[16px] border-2 border-green-900 bg-white p-4"
                 >
                   <Image
                     src={`/getStarted${index + 1}.svg`}

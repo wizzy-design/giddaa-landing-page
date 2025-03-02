@@ -9,8 +9,8 @@ const GreenButton = ({ title, mode }: { title: string; mode?: string }) => {
           : "bg-green-linear text-white"
       } ${
         mode === "getStarted"
-          ? "py-3 hover:scale-[1]"
-          : "py-[16px] hover:scale-[1.1]"
+          ? "py-3 lg:hover:scale-[1.05] active:scale-[1.05] active:opacity-80"
+          : "py-[16px] active:opacity-80 active:scale-[1.1] lg:hover:scale-[1.1]"
       } flex items-center justify-center gap-3 rounded-100  px-7  text-[13px] font-bold transition-all `}
     >
       {title}

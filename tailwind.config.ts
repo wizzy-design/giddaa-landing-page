@@ -9,7 +9,6 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        redHat: ["Red Hat Display", "sans-serif"],
         millik: ["Millik", "sans-serif"],
       },
       backgroundImage: {
