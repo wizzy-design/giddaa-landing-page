@@ -9,7 +9,7 @@ const Hero = () => {
         <GiddaaBuyCard />
       </div>
 
-      <div className="flex w-full max-w-[2000px] flex-col items-center gap-8 pt-5">
+      <div className="flex w-full max-w-[2000px] flex-col items-center gap-8 pt-3 md:pt-5">
         <div className="flex w-fit items-center rounded-100 border border-solid border-[#F0F0F0] bg-hero-linear px-4 py-3 text-xs font-bold">
           <p className="flex h-[29px] items-center border-r border-solid border-[#D9D9D9] bg-green-linear bg-clip-text pr-2 text-center capitalize text-transparent">
             We Serve Nigerians Across the Globe
