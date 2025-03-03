@@ -11,7 +11,7 @@ Follow these steps to run the project locally:
    You can either download the ZIP file of the repository or clone it using Git:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/wizzy-design/giddaa-landing-page.git
    ```
 
 2. **Navigate to the Project Directory:**
